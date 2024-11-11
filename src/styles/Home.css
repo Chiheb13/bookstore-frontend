@@ -1,0 +1,10 @@
+
+.transition-opacity {
+  transition: background-image 2s ease-in-out;
+}
+.back{
+  background:#F5FFFF;  /* fallback for old browsers */
+
+
+}
+
