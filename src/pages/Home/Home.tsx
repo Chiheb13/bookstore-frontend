@@ -7,6 +7,7 @@ import "@fontsource/righteous";
 import Logo from './Logo';
 import Footer from '../../components/Footer';
 import BookCarousel from './Carousel';
+import BrowseByCategory from '../categories/CategorySection';
 
 const Home = () => {
     const { user, getUser } = useAuthContext();
@@ -34,6 +35,10 @@ const Home = () => {
                 <section className="py-12 px-6">
                     {/* BookCarousel section */}
                     <BookCarousel />
+                </section>
+                <section className="py-12 px-6">
+                    {/* BookCarousel section */}
+                    <BrowseByCategory />
                 </section>
             </main>
 
